@@ -1,0 +1,125 @@
+.user-ui-container {
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.user-ui-container h1 {
+    color: rgb(0, 114, 0);
+}
+
+.poll-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.poll-item {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.poll-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.poll-title {
+    margin: 0;
+}
+
+.poll-description {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.start-button {
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+}
+
+.start-button:hover {
+    background-color: darkgreen;
+}
+
+.music-button {
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+}
+
+.music-button:hover {
+    background-color: darkgreen;
+}
+
+.theme-button {
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+}
+
+.theme-button:hover {
+    background-color: darkgreen;
+}
+
+
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode .poll-item {
+    background-color: #444;
+    color: white;
+}
+
+.dark-mode .start-button {
+    background-color: rgb(0, 99, 41);
+    color: white;
+}
+
+.dark-mode .start-button:hover {
+    background-color: rgb(1, 41, 17);
+}
+
+.dark-mode .music-button {
+    background-color: rgb(0, 99, 41);
+    color: white;
+}
+
+.dark-mode .music-button:hover {
+    background-color: rgb(1, 41, 17);
+}
+
+.dark-mode .theme-button {
+    background-color: rgb(0, 99, 41);
+    color: white;
+}
+
+.dark-mode .theme-button:hover {
+    background-color: rgb(1, 41, 17);
+}
+
+.dark-mode h1 {
+    color: lightgreen;
+}

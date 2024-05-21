@@ -1,0 +1,33 @@
+.admin-heading {
+    margin-left: 600px;
+    color: grey;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.logout-button, .reset-votes-button, .language-button {
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.logout-button {
+    margin-left: 1350px;
+}
+
+.reset-votes-button {
+    margin-left: 1320px;
+}
+
+.language-button {
+    margin-left: 1320px; 
+    
+}
+
+.logout-button:hover, .reset-votes-button:hover, .language-button:hover {
+    background-color: darkgreen;
+}

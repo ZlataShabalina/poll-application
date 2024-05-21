@@ -1,0 +1,42 @@
+.poll-ui-container {
+    margin-top: 100px;
+    margin-left: 600px;
+    color: rgb(0, 114, 0);
+}
+
+.back-to-polls-button {
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back-to-polls-button:hover {
+    background-color: darkgreen;
+}
+
+.question-item {
+    margin-top: 20px;
+}
+
+.choices-list .choice-item button {
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.choices-list .choice-item button:hover {
+    background-color: darkgreen;
+}
+
+.voted-question {
+    color: green;
+}
